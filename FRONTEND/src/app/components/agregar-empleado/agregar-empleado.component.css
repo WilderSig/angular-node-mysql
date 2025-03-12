@@ -1,0 +1,23 @@
+.form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px; /* 🔹 Espacio entre los elementos */
+    padding: 0 24px; /* 🔹 Espacio a los lados */
+}
+
+.full-width {
+    width: 90%; /* 🔹 Ajusta el ancho de los campos */
+    margin: 1 auto; /* 🔹 Centra los campos dentro del modal */
+}
+
+mat-form-field {
+    margin-bottom: 10px; /* 🔹 Espaciado entre cada campo */
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-top: 16px;
+}
